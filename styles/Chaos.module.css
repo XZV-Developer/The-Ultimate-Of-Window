@@ -1,0 +1,39 @@
+/* styles/Chaos.module.css */
+.openBtn {
+  position: fixed;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 12px 24px;
+  font-size: 10px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.05);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  z-index: 100;
+  backdrop-filter: blur(10px);
+  transition: all 0.4s ease;
+}
+
+.closeBtn {
+  position: fixed;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%) scale(0);
+  z-index: 9999;
+  width: 45px;
+  height: 45px;
+  background: #ff3e3e;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* Tambahkan sisa CSS lainnya dengan format module seperti ini */
